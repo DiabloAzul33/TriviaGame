@@ -1,3 +1,12 @@
 body {
     background-color: aqua;
+    text-align: center;
 }
+
+#time-left-alert {
+    position: fixed;
+}
+
+/* #score {
+    position: fixed;
+} */
