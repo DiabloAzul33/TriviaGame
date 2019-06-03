@@ -42,7 +42,9 @@ var questions = [
         answers: ["30 mph", "45 mph", "50 mph", "60 mph"],
     }
     ]
-    
+
+// var images = ["assets/images/narwhal.png","assets/images/cat sweets.png", "assets/images/armadillo.jpg", "assets/images/wombat.jpg", "assets/images/honeybee.jpg", "assets/images/clownfish.jpg", "assets/images/capuchin.jpg", "assets/images/peacock.jpg", "assets/images/platypus.jpg", "assets/images/peacock mantis shrimp.png" ]
+
 var correctAnswers = ["front", "sweet", "identical", "urine", "cube-shaped",  "sexually", "male", "peahens", "spurs", "50"]; // array of correct anwers to loop thru with if/else if statements to determine score
 
 function appendQuestions() {
