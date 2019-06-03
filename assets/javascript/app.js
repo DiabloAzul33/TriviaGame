@@ -84,10 +84,10 @@ $("#submit-quiz").on("click", function () { // on click event to check answers o
 
 // loop thru correctAnswers array, if statements for correct answers, adds ++ to score for right vs wrong answers
 
-setTimeout(thirtySeconds, 1000 * 30);
-setTimeout(oneMinute, 1000 * 20);
-setTimeout(twoMinutes, 1000 * 10);
-setTimeout(timeUp, 1000 * 45);
+setTimeout(thirtySeconds, 1000 * 150);
+setTimeout(oneMinute, 1000 * 120);
+setTimeout(twoMinutes, 1000 * 60);
+setTimeout(timeUp, 1000 * 180);
 
 function thirtySeconds() {  // 30 seconds left
     $("#time-left").html("<h2>About 30 Seconds Left!</h2>");
